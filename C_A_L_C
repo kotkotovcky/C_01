@@ -1,6 +1,6 @@
 /**
  * Калькулятор умеет выполнять операции сложения, вычитания, умножения и деления с двумя числами:
- * a + b, a - b, a * b, a / b. Данные передаются в одну строку (смотри пример)! Решения, в которых каждое число и
+ * a + b, a - b, a * b, a / b. Данные передаются в одну строку. Решения, в которых каждое число и
  * арифмитеческая операция передаются с новой строки считаются неверными.
  *
  * Калькулятор умеет работать как с арабскими (1,2,3,4,5…), так и с римскими (I,II,III,IV,V…) числами.
@@ -117,7 +117,7 @@ public class Calc_Ar_Lat {
                 "LXXI", "LXXII", "LXXIII", "LXXIV", "LXXV", "LXXVI", "LXXVII", "LXXVIII", "LXXIX", "LXXX",
                 "LXXXI", "LXXXII", "LXXXIII", "LXXXIV", "LXXXV", "LXXXVI", "LXXXVII", "LXXXVIII", "LXXXIX", "XC",
                 "XCI", "XCII", "XCIII", "XCIV", "XCV", "XCVI", "XCVII", "XCVIII", "XCIX", "C"};
-//
+
         String ArabForRoman = roman[numArabian];
         return ArabForRoman;
     }
